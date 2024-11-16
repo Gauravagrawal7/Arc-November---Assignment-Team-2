@@ -19,6 +19,7 @@ import Raddit from "@/assets/reddit.png";
 import AutoStartCarousel from "@/components/ui/AutoStartCarousel/EmblaCarousel";
 import { EmblaOptionsType } from "embla-carousel";
 import { useNavigate } from "react-router-dom";
+import Benefits from "@/components/Benefits/Benefits";
 
 function Heroscreen() {
   const OPTIONS: EmblaOptionsType = { loop: true };
@@ -117,7 +118,7 @@ function Heroscreen() {
         </p>
         <AutoStartCarousel slides={SLIDES} options={OPTIONS} />
       </section>
-      <BenifitsBlock></BenifitsBlock>
+      <Benefits></Benefits>
       <GlobleBlock></GlobleBlock>
       <CaseStudy></CaseStudy>
       <SalesConnection></SalesConnection>
