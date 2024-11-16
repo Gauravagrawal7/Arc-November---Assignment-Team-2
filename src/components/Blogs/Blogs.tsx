@@ -5,8 +5,14 @@ import CardImg2 from "@/assets/image 14.png";
 import CardImg3 from "@/assets/image 301.png";
 import Rightarrow from "@/assets/Vector.png";
 import { NextButton, PrevButton } from "../ui/Carousel/EmblaCarouselArrowBtn";
+import { useNavigate } from "react-router-dom";
 
 const Blogs = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate("/blogs"); // Redirect to the "About" page
+  };
   return (
     <div className="blog-main-cont">
       <div className="blog-container">
@@ -14,7 +20,7 @@ const Blogs = () => {
         <br />
         <div className="blog-title">Explore the impact we've delivered</div>
         <br />
-        <button className="view-btn">
+        <button className="view-btn" onClick={handleNavigate}>
           View All
           <span className="right-arrow">
             <img src={Rightarrow} alt="" />

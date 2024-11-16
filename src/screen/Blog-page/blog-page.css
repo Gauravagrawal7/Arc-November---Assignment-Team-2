@@ -1,0 +1,21 @@
+.blog-page-container{
+    width: 100%;
+}
+
+.blog-page-nav-portion{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-left: 7%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.shade{
+    color: rgba(115, 115, 115, 1);
+    font-weight: 400;
+}

@@ -5,6 +5,7 @@ import Header from "./components/ui/Header/Header";
 import Footer from "./components/ui/Footer/Footer";
 import ContactUs from "./screen/ContactUs";
 import Partner_page from "./screen/Partner-page/Partner_page";
+import Blog_page from "./screen/Blog-page/Blog_page";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             path="/partners"
             element={<Partner_page></Partner_page>}
           ></Route>
+          <Route path="/blogs" element={<Blog_page></Blog_page>}></Route>
         </Routes>
       </BrowserRouter>
       <Footer></Footer>

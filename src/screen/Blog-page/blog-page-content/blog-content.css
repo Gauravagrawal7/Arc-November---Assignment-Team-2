@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+
+.blog-cont-main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.blog-inner-contaienr{
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-business-cont-title-part{
+    width: 100%;
+    height: 118px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.blog-hash-content{
+    color: rgba(115, 115, 115, 1);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.blog-heading-content{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.blog-author-and-date-cont{
+    color: rgba(115, 115, 115, 1);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.dark-shade{
+    font-weight: 600;
+}
+
+.blog-banner-part{
+    width: 100%;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+.blog-info-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-info-left-cont{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.blog-info-part-heading{
+    color: rgba(16, 24, 40, 1);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.blog-info-para-part{
+    width: 98%;
+    color: rgba(75, 82, 98, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.blog-info-right-cont{
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    background: linear-gradient(rgba(239, 254, 249, 1),rgba(5, 150, 105, 1));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.blog-right-cont-lower-part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-lower-part-content{
+    width: 100%;
+    height: 131px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hub-white-logo{
+    width: 30px;
+    height: 31px;
+}
+
+.light-shade-title{
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Manrope", serif;
+}
+
+.bold-shade-title{
+    color: rgba(255, 255, 255, 1);
+    font-family: "Manrope", serif;
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.check-now-btn{
+    width: 100%;
+    height: 54px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 2px;
+    color: rgba(0, 109, 75, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
