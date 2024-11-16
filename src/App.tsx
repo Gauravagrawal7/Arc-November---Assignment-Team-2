@@ -4,7 +4,7 @@ import Heroscreen from "./screen/Hero2.0";
 import Header from "./components/ui/Header/Header";
 import Footer from "./components/ui/Footer/Footer";
 import ContactUs from "./screen/ContactUs";
-import Partner_page from "./components/Partner-page/Partner_page";
+import Partner_page from "./screen/Partner-page/Partner_page";
 
 function App() {
   return (

@@ -2,10 +2,10 @@ import "./partner-page.css";
 import Chevronright from "../../assets/chevron-right.png";
 
 import AdvertisingBanner from "@/components/Advertising/AdvertisingBanner";
-import BlogCont from "../ReuseComponents/BlogContainer/BlogCont";
-import CompanyDetail from "../ReuseComponents/CompanyDetail/CompanyDetail";
-import GlobalInfoPart from "../GlobalBlock/GlobalBlock";
-import HubnexUser from "../Hubnex/Hubnex";
+import BlogCont from "@/components/Blogs/Blogs";
+import CompanyDetail from "./CompanyDetail/CompanyDetail";
+import GlobalInfoPart from "@/components//GlobalBlock/GlobalBlock";
+import HubnexUser from "@/components/Hubnex/Hubnex";
 import FirstComponent from "./partner-page_1st-component/FirstComponent";
 import SecondComponent from "./partner-page_2nd-component/SecondComponent";
 import ThirdComponent from "./partner-page_3rd-component/ThirdComponent";
