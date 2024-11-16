@@ -1,7 +1,7 @@
 import React from "react";
 import { EmblaOptionsType } from "embla-carousel";
 // import { DotButton, useDotButton } from './EmblaCarouselDotButton';
-import DiagonalArrow from "@/assets/north_west.png";
+import DiagonalArrow from "@/assets/north-west-white.png";
 import {
   PrevButton,
   NextButton,
@@ -14,6 +14,7 @@ type PropType = {
     img: string;
     header: string;
     desc: string;
+    tagName: string;
   }[];
   options?: EmblaOptionsType;
 };
@@ -38,28 +39,30 @@ const Carousel: React.FC<PropType> = (props) => {
         <div className="embla__container">
           {slides.map((obj, index) => (
             <div className="embla__slide" key={index}>
-              {/* <div className="embla__slide__number">{ + 1}</div> */}
-              {/* <div className="blog-card"> */}
-              <img src={obj.img} alt="" />
-              <br />
-              <br />
-              <div className="blog-card-title">{obj.header}</div>
-              <br />
-              <div className="blog-card-para">{obj.desc}</div>
-              <br />
-              <div className="blog-visit-part">
-                Read Full Article
-                <span className="right-arrow">
-                  <img src={DiagonalArrow} alt="" />
-                </span>
-                {/* </div> */}
+              <div className="card-container">
+                <div className="tag-container">
+                  <div className="tag">{obj.tagName}</div>
+                </div>
+
+                <img src={obj.img} alt="" />
+
+                <div className="card-title">{obj.header}</div>
+
+                <div className="card-para">{obj.desc}</div>
+
+                <div className="visit-part">
+                  Read Full Article
+                  <span className="right-arrow">
+                    <img src={DiagonalArrow} alt="" />
+                  </span>
+                </div>
               </div>
             </div>
           ))}
         </div>
       </div>
 
-      <div className="embla__controls">
+      <div className="controls-embla">
         <div className="embla__buttons">
           <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
           <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />

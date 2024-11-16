@@ -17,8 +17,8 @@ const FirstComponent = () => {
           professional website, landing page or admin panel for your.
         </p>
         <div className="left-intro_button-grp">
-          <button className="contact-button">
-            Contact Us{" "}
+          <button className="contact-button" onClick={() => {}}>
+            Contact Us
             <span className="right-arrow">
               <img src={Rightarrowblack} alt="" />
             </span>

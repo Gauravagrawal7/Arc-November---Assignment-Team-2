@@ -15,7 +15,7 @@ const Footer = () => {
             See all that you can accomplish with Hubnex Labs
           </div>
           <br />
-          <button className="sales-btn">
+          <button className="Footer-sales-btn">
             Connect Sales{" "}
             <span className="right-arrow">
               <img src={Rightarrow} alt="" />

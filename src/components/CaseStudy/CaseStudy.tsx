@@ -1,6 +1,6 @@
 import "./CaseStudy.css";
-import CardImg3 from "@/assets/image 301.png";
 import Rightarrow from "@/assets/Vector.png";
+import bannerImg from "@/assets/finance.png";
 import { EmblaOptionsType } from "embla-carousel";
 import Carousel from "@/components/ui/Carousel/Carousel";
 
@@ -9,20 +9,22 @@ const CaseStudy = () => {
 
   const SLIDES = [
     {
-      img: CardImg3,
+      tagName: "Finance",
+      img: bannerImg,
       header: "What is Ad Exposure and Why It Matters?",
       desc: "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
     },
     {
-      img: CardImg3,
+      tagName: "Business",
+      img: bannerImg,
       header: "What is Ad Exposure and Why It Matters?",
       desc: "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
     },
-    {
-      img: CardImg3,
-      header: "What is Ad Exposure and Why It Matters?",
-      desc: "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
-    },
+    // {
+    //   img: CardImg3,
+    //   header: "What is Ad Exposure and Why It Matters?",
+    //   desc: "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
+    // },
   ];
 
   return (

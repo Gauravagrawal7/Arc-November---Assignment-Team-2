@@ -94,8 +94,20 @@ function Heroscreen() {
       </div>
 
       {/* <!-- Company Logos Section --> */}
-      <section className="company-logos" style={{ marginTop: "100px" }}>
-        <p>Join 4,000+ companies already growing</p>
+      <section
+        className="company-logos"
+        style={{ marginTop: "100px", textAlign: "center" }}
+      >
+        <p
+          style={{
+            fontSize: "20px",
+            fontWeight: 600,
+            color: "#667085",
+            marginBottom: "2rem",
+          }}
+        >
+          Join 4,000+ companies already growing
+        </p>
         <AutoStartCarousel slides={SLIDES} options={OPTIONS} />
       </section>
       <BenifitsBlock></BenifitsBlock>
