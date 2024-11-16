@@ -6,6 +6,7 @@ import Footer from "./components/ui/Footer/Footer";
 import ContactUs from "./screen/ContactUs";
 import Partner_page from "./screen/Partner-page/Partner_page";
 import Blog_page from "./screen/Blog-page/Blog_page";
+import CaseStudy from "./screen/casestudy/CaseStudyScreen";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             element={<Partner_page></Partner_page>}
           ></Route>
           <Route path="/blogs" element={<Blog_page></Blog_page>}></Route>
+          <Route path="/case-study" element={<CaseStudy></CaseStudy>}></Route>
         </Routes>
       </BrowserRouter>
       <Footer></Footer>

@@ -3,6 +3,7 @@ import Rightarrow from "@/assets/Vector.png";
 import bannerImg from "@/assets/finance.png";
 import { EmblaOptionsType } from "embla-carousel";
 import Carousel from "@/components/ui/Carousel/Carousel";
+import { useNavigate } from "react-router-dom";
 
 const CaseStudy = () => {
   const OPTIONS: EmblaOptionsType = { align: "start" };
@@ -26,7 +27,11 @@ const CaseStudy = () => {
     //   desc: "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
     // },
   ];
+  const navigate = useNavigate();
 
+  const handleNavigate = () => {
+    navigate("/case-study"); // Redirect to the "About" page
+  };
   return (
     <div className="blog-main-cont">
       <div className="blog-container">
@@ -38,7 +43,7 @@ const CaseStudy = () => {
           growth. We have established offices in India, the UAE, and the USA.
         </div>
         <br />
-        <button className="view-btn">
+        <button className="view-btn" onClick={handleNavigate}>
           View All
           <span className="right-arrow">
             <img src={Rightarrow} alt="" />

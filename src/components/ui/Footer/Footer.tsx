@@ -84,7 +84,9 @@ const Footer = () => {
             <li className="footer-list-heading">Resources</li>
 
             <li className="footer-list-item">Blogs</li>
-            <li className="footer-list-item">Case Studies</li>
+            <li className="footer-list-item">
+              <a href="/case-study"> Case Studies</a>
+            </li>
             <li className="footer-list-item">Insights</li>
             <li className="footer-list-item"></li>
           </ul>

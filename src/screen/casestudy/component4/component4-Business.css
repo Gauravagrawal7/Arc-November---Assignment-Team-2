@@ -1,0 +1,80 @@
+
+.container{
+    height: 20%;
+    width:90%;
+    margin-top: 6%;
+
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+.container p{
+    font-size:20px;
+}
+
+.container1 h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+
+}
+.container1 p{
+    font-size:20px;
+
+
+}
+.main-container-box{
+    height: Fixed (301px)px;
+    width: Fixed (1,215px)px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 7%;
+
+    
+    top: 1069px;
+    left: 106px;
+    gap: 14px;
+    opacity: 0px;
+    
+
+
+
+}
+.Box1{
+
+    height: Fixed (298.43px)px;
+    width: Fixed (294.77px)px;
+    justify-content: space-between;
+    
+    border: 2px solid black;
+   
+padding: 23.78px 0px 0px 0px;
+gap: 7.93px;
+border-radius: 7.33px 0px 0px 0px;
+border: 0.73px 0px 0px 0px;
+opacity: 0px;
+
+
+}
+.Box1 h1 {
+    font-size: medium;
+}
+.Box2{
+    width: Fill (247.21px)px;
+height: Hug (217.61px)px;
+gap: 20.61px;
+opacity: 0px;
+
+
+}
+.inner-cont{
+    height: 10%;
+    width: 155;
+    border: 2px solid black;
+}
+
+
+
