@@ -1,8 +1,8 @@
 import "./header.css";
-import DiagonalArrow from "../../../assets/north_west.png";
-import Leftalignlogo from "../../../assets/Hubnex Labs left align.png";
-import Downarrow from "../../../assets/arrow_back_ios_new.png";
-import Rightarrow from "../../../assets/Vector.png";
+import DiagonalArrow from "@/assets/north_west.png";
+import Leftalignlogo from "@/assets/Hubnex Labs left align.png";
+import Downarrow from "@/assets/arrow_back_ios_new.png";
+import Rightarrow from "@/assets/Vector.png";
 
 const Header = () => {
   return (

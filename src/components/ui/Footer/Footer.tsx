@@ -1,10 +1,10 @@
 import "./footer.css";
-import Rightarrow from "../../../assets/Vector.png";
-import HubnexLogo from "../../../assets/hubnex logo.png";
-import Twitter from "../../../assets/logo-twitter 2.png";
-import Facebook from "../../../assets/2.png";
-import Instagram from "../../../assets/3.png";
-import Github from "../../../assets/4.png";
+import Rightarrow from "@/assets/Vector.png";
+import HubnexLogo from "@/assets/hubnex logo.png";
+import Twitter from "@/assets/logo-twitter 2.png";
+import Facebook from "@/assets/2.png";
+import Instagram from "@/assets/3.png";
+import Github from "@/assets/4.png";
 
 const Footer = () => {
   return (

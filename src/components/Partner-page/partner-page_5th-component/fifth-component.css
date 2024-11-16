@@ -1,0 +1,60 @@
+.fifth-main-cont{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fifth-left-img-part{
+    width: 50%;
+}
+
+.PosterImg{
+    width: 538px;
+    height: 519px;
+    border-radius: 16px;
+}
+
+.fifth-right-text-part{
+    width: 50%;
+    height: 519px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fifth-text-area{
+    width: 80%;
+}
+
+.fifth-text-part-heading{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 600;
+}
+
+.fifth-para-part{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #667085;
+    margin-top: 30px;
+}
+
+.sales-btn{
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: #F8FAFC;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+

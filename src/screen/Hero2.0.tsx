@@ -1,10 +1,10 @@
 import BenifitsBlock from "@/components/benifitsBlock";
-import Blogs from "@/components/Blogs";
-import CaseStudy from "@/components/caseStudy";
-import GlobleBlock from "@/components/globleBlock";
-import Hubnex from "@/components/HubNex";
-import PurpleBand from "@/components/PurpleBand";
-import SalesConnection from "@/components/SalesConnection";
+import Blogs from "@/components/Blogs/Blogs";
+import CaseStudy from "@/components/CaseStudy/CaseStudy";
+import GlobleBlock from "@/components/GlobalBlock/GlobalBlock";
+import Hubnex from "@/components/Hubnex/Hubnex";
+import Advertising from "@/components/Advertising/AdvertisingBanner";
+import SalesConnection from "@/components/SalesConnection/SalesConnection";
 
 function Heroscreen() {
   return (
@@ -72,7 +72,7 @@ function Heroscreen() {
       <CaseStudy></CaseStudy>
       <SalesConnection></SalesConnection>
       <Hubnex></Hubnex>
-      <PurpleBand></PurpleBand>
+      <Advertising></Advertising>
       <Blogs></Blogs>
     </>
   );
