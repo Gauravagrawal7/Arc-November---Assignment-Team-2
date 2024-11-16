@@ -1,8 +1,8 @@
 import "./App.css";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Heroscreen from "./screen/Hero2.0";
-import Header from "./components/ui/Header";
-import Footer from "./components/ui/Footer";
+import Header from "./components/ui/Header/Header";
+import Footer from "./components/ui/Footer/Footer";
 import ContactUs from "./screen/ContactUs";
 
 function App() {
