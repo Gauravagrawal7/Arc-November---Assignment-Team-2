@@ -6,8 +6,14 @@ import Image52 from "@/assets/image 52.png";
 import User1 from "@/assets/Ellipse 21.png";
 import User2 from "@/assets/Ellipse 22.png";
 import User3 from "@/assets/Ellipse 23.png";
+import { useNavigate } from "react-router-dom";
 
 const FirstComponent = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate("/contact-us"); // Redirect to the "contact-us" page
+  };
   return (
     <div className="fc_main-container">
       <div className="fc_left-intro">
@@ -17,7 +23,7 @@ const FirstComponent = () => {
           professional website, landing page or admin panel for your.
         </p>
         <div className="left-intro_button-grp">
-          <button className="contact-button" onClick={() => {}}>
+          <button className="contact-button" onClick={handleNavigate}>
             Contact Us
             <span className="right-arrow">
               <img src={Rightarrowblack} alt="" />

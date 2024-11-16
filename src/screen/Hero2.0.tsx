@@ -18,10 +18,17 @@ import Panteralogo from "@/assets/Pantera logo.png";
 import Raddit from "@/assets/reddit.png";
 import AutoStartCarousel from "@/components/ui/AutoStartCarousel/EmblaCarousel";
 import { EmblaOptionsType } from "embla-carousel";
+import { useNavigate } from "react-router-dom";
 
 function Heroscreen() {
   const OPTIONS: EmblaOptionsType = { loop: true };
   const SLIDES = [Choruslogo, TCS, Panteralogo, Raddit];
+
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate("/contact-us"); // Redirect to the "contact-us" page
+  };
 
   return (
     <>
@@ -37,7 +44,7 @@ function Heroscreen() {
             the blocks.
           </p>
           <div className="left-intro_button-grp">
-            <button className="contact-button">
+            <button className="contact-button" onClick={handleNavigate}>
               Contact Us{" "}
               <span className="right-arrow">
                 <img src={Rightarrowblack} alt="" />

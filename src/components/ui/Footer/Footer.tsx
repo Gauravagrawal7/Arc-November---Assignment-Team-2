@@ -7,6 +7,9 @@ import Instagram from "@/assets/3.png";
 import Github from "@/assets/4.png";
 
 const Footer = () => {
+  const handleNavigate = () => {
+    location.assign("/contact-us");
+  };
   return (
     <div className="footer-main-cont">
       <div className="footer-cont">
@@ -28,7 +31,7 @@ const Footer = () => {
             Let’s grow 💪 <br />
             together with the faster ecosystem
           </div>
-          <button className="contact-btn">
+          <button className="contact-btn" onClick={handleNavigate}>
             Contact us{" "}
             <span className="right-arrow">
               <img src={Rightarrow} alt="" />
@@ -65,7 +68,9 @@ const Footer = () => {
             <li className="footer-list-item">About Us</li>
             <li className="footer-list-item">Services</li>
             <li className="footer-list-item">Careers</li>
-            <li className="footer-list-item">For Partners</li>
+            <li className="footer-list-item">
+              <a href="/partners">For Partners</a>
+            </li>
           </ul>
           <ul className="footer-list-sec">
             <li className="footer-list-heading">Help</li>

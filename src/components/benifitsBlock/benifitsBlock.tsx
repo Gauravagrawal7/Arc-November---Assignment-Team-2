@@ -7,7 +7,6 @@ import icon1 from "@/assets/Onn.png";
 import icon3 from "@/assets/clock.png";
 import icon4 from "@/assets/customer.png";
 import icon5 from "@/assets/Escrow.png";
-import BlurFade from "../ui/blur-fade";
 import RetroGrid from "../ui/retro-grid";
 
 function BenifitsBlock() {
