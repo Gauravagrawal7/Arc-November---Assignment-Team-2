@@ -1,4 +1,3 @@
-import BenifitsBlock from "@/components/benifitsBlock/benifitsBlock";
 import Blogs from "@/components/Blogs/Blogs";
 import CaseStudy from "@/components/CaseStudy/CaseStudy";
 import GlobleBlock from "@/components/GlobalBlock/GlobalBlock";

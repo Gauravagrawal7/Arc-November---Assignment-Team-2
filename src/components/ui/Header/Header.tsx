@@ -5,6 +5,9 @@ import Downarrow from "@/assets/arrow_back_ios_new.png";
 import Rightarrow from "@/assets/Vector.png";
 
 const Header = () => {
+  const handleRedirect = () => {
+    location.assign("/home");
+  };
   return (
     <header className="header-main-cont">
       <div className="header-upper-part">
@@ -33,7 +36,13 @@ const Header = () => {
       </div>
       <hr className="nav-line" />
       <div className="header-lower-nav-part">
-        <img src={Leftalignlogo} alt="" width={42} height={42} />
+        <img
+          src={Leftalignlogo}
+          alt=""
+          width={42}
+          height={42}
+          onClick={handleRedirect}
+        />
         <div className="lower-nav-tabs">
           <div className="lower-nav-tab-items">
             Explore Services

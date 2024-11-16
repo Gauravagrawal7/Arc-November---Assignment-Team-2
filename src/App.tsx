@@ -3,7 +3,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Heroscreen from "./screen/Hero2.0";
 import Header from "./components/ui/Header/Header";
 import Footer from "./components/ui/Footer/Footer";
-import ContactUs from "./screen/ContactUs";
+import ContactUs from "./screen/ContactUs/ContactUs";
 import Partner_page from "./screen/Partner-page/Partner_page";
 import Blog_page from "./screen/Blog-page/Blog_page";
 import CaseStudy from "./screen/casestudy/CaseStudyScreen";
