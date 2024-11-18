@@ -14,8 +14,9 @@
 .outer-box{
     height: 30%;
     width: 90%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-left: 5%;
+    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -26,7 +27,7 @@
 .inner-box{
     height: 10%;
     width: 80%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-top:28px;
     margin-left: 20%;
 }
@@ -37,3 +38,13 @@
 .inner-box p {
     margin-top: 5px;
 }
+.conclution{
+     margin-left: 5%;
+     
+     width: 80%;
+
+}
+.conclution p{
+    font-size: 20px;
+}
+

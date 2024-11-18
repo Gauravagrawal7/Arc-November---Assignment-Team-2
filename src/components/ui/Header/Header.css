@@ -58,10 +58,11 @@
 }
 
 .login-and-sales-part {
-  width: 15%;
+  width: 16%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 .login-link {

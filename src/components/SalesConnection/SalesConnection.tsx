@@ -4,7 +4,7 @@ import Rightarrow from "@/assets/blackarr.png";
 function SalesConnection() {
   return (
     <>
-      <div className="Sales-container ">
+      <div className="Sales-container">
         <h5>We are big enough to deliver and small enough to care</h5>
         <p>Teams large and small rely on Hubnex Labs</p>
 

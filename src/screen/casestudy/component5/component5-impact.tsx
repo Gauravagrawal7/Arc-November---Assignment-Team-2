@@ -1,5 +1,8 @@
 
 import './component5-impact.css'
+import Persent1 from '../../../assets/persent1.png'
+import Persent2 from '../../../assets/persent2.png'
+import Persent3 from '../../../assets/persent3.png'
 
 const Impact = ()=> {
 
@@ -14,10 +17,14 @@ const Impact = ()=> {
        <br />
            {/* box1 */}
        <div className='outer-box'>
-        <img src="" alt="" />
+
+       <div className='img-cont'>
+       <img src={Persent1} alt="" />
+       </div>
         
         <div className='inner-box' >
-            <h2>Enhanced Patient Engagement:</h2>
+
+           <h2>Enhanced Patient Engagement:</h2>
             <p>We were successful in the development and deployment of the app before the planned timeline and supported their vision of making mental health more accessible to their patients, minus the hassles.</p>
 
         </div>
@@ -25,7 +32,10 @@ const Impact = ()=> {
        </div>
        {/* box2 */}
         <div className='outer-box'>
-            <img src="" alt="" />
+
+        <div className='img-cont'>
+       <img src={Persent2} alt="" />
+       </div>
 
             <div className='inner-box'>
                 <h2>Improved Treatment Adherence:</h2>
@@ -36,7 +46,10 @@ const Impact = ()=> {
         </div>
         {/* box3 */}
         <div className='outer-box'>
-            <img src="" alt="" />
+
+        <div className='img-cont'>
+       <img src={Persent3} alt="" />
+       </div>
             <div className='inner-box'>
             <h2>Performance Scalability:</h2>
             
@@ -48,8 +61,10 @@ const Impact = ()=> {
 
         {/* conclution */}
         
-        <div className='outer-box'>
+        <div className='conclution'>
+            <div>
             <h1>Conclution</h1>
+            </div>
             <br />
             <p>We continue to deliver robust cybersecurity solutions to their team to mitigate cyber risks and enhance cyber resilience in the insurance industry. We hope leveraging our cybersecurity solution helps the client stand true to their commitment to their customers on delivering a secure and resilient digital future with them.
             </p>

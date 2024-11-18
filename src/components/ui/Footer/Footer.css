@@ -42,6 +42,10 @@
   color: rgba(255, 255, 255, 1);
   font-size: 14px;
   font-weight: 600;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .right-arrow {

@@ -1,8 +1,8 @@
-.form-container {
+/* .form-container {
   display: flex;
 }
 
-.form-container h2 {
+.form-container h1 {
   text-align: center;
   font-family: Inter;
   font-size: 36px;
@@ -20,3 +20,68 @@
   text-align: center;
   color: #667085;
 }
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+  flex: 1;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+.phone-input {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.phone-input .country-code {
+  background: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.phone-input input {
+  flex: 1;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+} */

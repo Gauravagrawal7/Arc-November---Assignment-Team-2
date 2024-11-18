@@ -1,3 +1,4 @@
+// import { Contact } from "lucide-react";
 import "./ContactUs.css";
 
 function ContactUs() {
@@ -9,13 +10,72 @@ function ContactUs() {
           style={{ width: "75%", display: "flex", justifyContent: "center" }}
         >
           <div style={{ width: "70%" }}>
-            <h2>Let's Talk- Contact Our Experts</h2>
+            <h1>Let's Talk- Contact Our Experts</h1>
             <p>
               Tell us a little bit about yourself and your queries. Our customer
               experience team will reach out to you within 24 hours.
             </p>
             <div>
-              <form>
+              <form className="contact-form">
+                <div className="row">
+                  <div className="form-group">
+                    <label htmlFor="name">Name*</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="business-name">Business Name*</label>
+                    <input
+                      type="text"
+                      id="business-name"
+                      name="business-name"
+                      placeholder="Business Name"
+                      required
+                    />
+                  </div>
+                </div>
+                <div className="form-group">
+                  <label htmlFor="email">Business Email*</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="you@company.com"
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="phone">Contact Number*</label>
+                  <div className="phone-input">
+                    <span className="country-code">+91</span>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      placeholder="1234567890"
+                      required
+                    />
+                  </div>
+                </div>
+                <div className="form-group">
+                  <label htmlFor="reason">Reason for Contact Request*</label>
+                  <textarea
+                    id="reason"
+                    name="reason"
+                    placeholder="Enter your message here..."
+                    required
+                  ></textarea>
+                </div>
+                <div className="form-group">
+                  <button type="submit">Submit</button>
+                </div>
+              </form>
+              {/* <form>
                 <label>Name*</label>
                 <input />
                 <label>Business Name*</label>
@@ -27,7 +87,7 @@ function ContactUs() {
                 <label>Reason for contact request*</label>
                 <textarea></textarea>
                 <button>Submit</button>
-              </form>
+              </form> */}
             </div>
           </div>
         </div>

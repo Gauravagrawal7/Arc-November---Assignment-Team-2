@@ -15,46 +15,48 @@ const FirstComponent = () => {
     navigate("/contact-us"); // Redirect to the "contact-us" page
   };
   return (
-    <div className="fc_main-container">
-      <div className="fc_left-intro">
-        <div className="left-intro_heading">Join Your Partner Network</div>
-        <p className="left-intro_para">
+    <div className="Partner-main-container">
+      <div className="Partner-left-intro">
+        <div className="Partner-left-intro_heading">
+          Join Your Partner Network
+        </div>
+        <p className="Partner-left-intro_para">
           Clarity gives you the blocks & components you need to create a truly
           professional website, landing page or admin panel for your.
         </p>
-        <div className="left-intro_button-grp">
-          <button className="contact-button" onClick={handleNavigate}>
+        <div className="Partner-left-intro_button-grp">
+          <button className="Partner-Contact-button" onClick={handleNavigate}>
             Contact Us
             <span className="right-arrow">
               <img src={Rightarrowblack} alt="" />
             </span>
           </button>
-          <button className="join-btn">
+          <button className="Partner-join-btn">
             Join Us{" "}
             <span className="right-arrow">
               <img src={Rightarrow} alt="" />
             </span>
           </button>
         </div>
-        <div className="left-intro_users-rating-part">
-          <div className="left-intro-user-part">
-            <div className="user-part">
-              <div className="user-img">
-                <img src={User1} alt="" className="round-img" />
-                <img src={User2} alt="" className="round-img" />
-                <img src={User3} alt="" className="round-img" />
+        <div className="Partner-left-intro_users-rating-part">
+          <div className="Partner-left-intro-user-part">
+            <div className="Partner-user-part">
+              <div className="Partner-user-img">
+                <img src={User1} alt="" className="Partner-round-img" />
+                <img src={User2} alt="" className="Partner-round-img" />
+                <img src={User3} alt="" className="Partner-round-img" />
               </div>
               5,910+
             </div>
-            <div className="user-para">
+            <div className="Partner-user-para">
               Companies are using & it’s growing everyday
             </div>
           </div>
 
-          <div className="left-intro-rating-part">
-            <div className="rating-part">
+          <div className="Partner-left-intro-rating-part">
+            <div className="Partner-rating-part">
               4.5/5
-              <span className="rating-stars">
+              <span className="Partner-rating-stars">
                 <img src={Stars} alt="" />
                 <img src={Stars} alt="" />
                 <img src={Stars} alt="" />
@@ -62,15 +64,15 @@ const FirstComponent = () => {
                 <img src={Stars} alt="" />
               </span>
             </div>
-            <div className="rating-para">
+            <div className="Partner-rating-para">
               Trusted by the top companies worldwide
             </div>
           </div>
         </div>
       </div>
 
-      <div className="fc_right-image">
-        <img src={Image52} alt="" className="fc-img" />
+      <div className="Partner-right-image">
+        <img src={Image52} alt="" className="Partner-img" />
       </div>
     </div>
   );
