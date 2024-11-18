@@ -1,4 +1,5 @@
 import "./Hero2.0.css";
+import NumberTicker from "@/components/ui/number-ticker";
 import Blogs from "@/components/Blogs/Blogs";
 import CaseStudy from "@/components/CaseStudy/CaseStudy";
 import GlobleBlock from "@/components/GlobalBlock/GlobalBlock";
@@ -66,7 +67,9 @@ function Heroscreen() {
                   <img src={User2} alt="" className="Hero-round-img" />
                   <img src={User3} alt="" className="Hero-round-img" />
                 </div>
-                5,910+
+                <span className="Hero-statistics-number">
+                  <NumberTicker value={5910} />+
+                </span>
               </div>
               <div className="Hero-user-para">
                 Companies are using & it’s growing everyday

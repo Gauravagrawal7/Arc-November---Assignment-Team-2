@@ -3,6 +3,7 @@ import Earth from "@/assets/image 5.png";
 import Dailyhunt from "@/assets/image 34.png";
 import Toi from "@/assets/image 36.png";
 import HindustanT from "@/assets/image 37.png";
+import NumberTicker from "../ui/number-ticker";
 
 const GlobalInfoPart = () => {
   return (
@@ -15,20 +16,26 @@ const GlobalInfoPart = () => {
             purposeful technology that addresses their needs and advances their
             growth. We have established offices in India, the UAE, and the USA.
           </div>
-          <div className="global-info-number-part">
-            <div className="info-num-part">
-              <div className="num-part">40+</div>
-              <div className="num-text-part">Integration</div>
+
+          <div className="statistics-global-info">
+            <div className="statistics-item">
+              <div className="num-part">
+                <NumberTicker value={40} className="number-ticker" />+
+              </div>
+              <div className="description">Integrations</div>
             </div>
-            <div className="info-num-part mid">
-              <div className="num-part">600%</div>
-              <div className="num-text-part">Return on investment</div>
+            <div className="statistics-item mid">
+              <div className="num-part">
+                <NumberTicker value={600} className="number-ticker" />%
+              </div>
+              <div className="description">Return on Investment</div>
             </div>
-            <div className="info-num-part">
-              <div className="num-part">4k+</div>
-              <div className="num-text-part">Global customers</div>
+            <div className="statistics-item">
+              <div className="num-part">4K+</div>
+              <div className="description">Global Customers</div>
             </div>
           </div>
+
           <div className="global-info-feature-part">
             <span className="feature">Featured in</span>
             <img src={Dailyhunt} alt="" />
