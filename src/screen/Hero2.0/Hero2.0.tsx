@@ -1,4 +1,4 @@
-import "@/screen/Hero2.0/Hero2.0.css";
+import "./Hero2.0.css";
 import Blogs from "@/components/Blogs/Blogs";
 import CaseStudy from "@/components/CaseStudy/CaseStudy";
 import GlobleBlock from "@/components/GlobalBlock/GlobalBlock";
