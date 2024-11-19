@@ -14,10 +14,12 @@
 
 .box1-cont h1{
     font-size:45px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
 .box1-cont p{
 font-size: 20px;
+color: #4B5262;
+
 
 }
 
@@ -27,24 +29,58 @@ font-size: 20px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
+
    
 }
 
 .col-cont{
-    width: 30%;
+    width: 130px;
     margin-left: 2%;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    align-items: center;
     
 }
+.img-cont{
+    /* border: 1px solid black; */
+    padding: 2%;
+    background-color:#ECFDF5;
+    ;
+}
+.text-cont{
+    padding: 1%;
+    /* border: 1px solid black; */
+}
+.textsize1{
+    width: 280px;
+
+}
+.textsize2{
+    width: 180px;
+    margin-right: 10px;
+}
+
 .col-cont1{
-    justify-content: center;
+    width: 155px;
     text-align: center;
-    align-items: center;
+    /* border: 1px solid black; */
 }
-.head{
-    justify-content: center;
+.persent-text{
     text-align: center;
-    align-items: center;
+    width:150px ;
+    /* border: 1px solid black; */
+
 }
+.persentsize{
+    width: 260px;
+
+}
+.innerper{
+    width: 260px;
+}
+
 
 .box2-cont {
     height: 40%;

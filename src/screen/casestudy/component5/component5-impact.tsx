@@ -61,15 +61,16 @@ const Impact = ()=> {
 
         {/* conclution */}
         
-        <div className='conclution'>
+        <div className='conclusion'>
             <div>
-            <h1>Conclution</h1>
+            <h1>Conclusion</h1>
             </div>
             <br />
             <p>We continue to deliver robust cybersecurity solutions to their team to mitigate cyber risks and enhance cyber resilience in the insurance industry. We hope leveraging our cybersecurity solution helps the client stand true to their commitment to their customers on delivering a secure and resilient digital future with them.
             </p>
 
         </div>
+        <br /><br /><br /><br /><br />
 
 
 

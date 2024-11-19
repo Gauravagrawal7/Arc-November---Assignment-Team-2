@@ -25,8 +25,9 @@ const Business = () => {
           integrity and availability.
         </p>
       </div>
+      <br />
 
-      <div className="container">
+      <div className="container1">
         <h1>
           <b>Our Solution</b>
         </h1>
@@ -38,65 +39,12 @@ const Business = () => {
           compliance, and preserving brand reputation.
         </p>
       </div>
+
       <br />
       <br />
       <div className="main-container-box">
-        {" "}
-        {/*  main container    */}
-        {/* <div className="Box1">
-          <div className="Box2">
-            <img src={Num1} alt="" />
-          </div>
-          <h1>Endpoint Security</h1>
-          <div className="inner-cont">
-            <p>
-              Our team deployed advanced endpoint protection solutions to
-              safeguard desktops, laptops, and mobile devices from malware,
-              ransomware, and other cyber threats.
-            </p>
-          </div>
-        </div>
-        <div className="Box11">
-          <div className="Box2">
-            <img src={Num2} alt="" />
-          </div>
-          <h1>Network Security</h1>
-          <div className="inner-cont">
-            <p>
-              We implemented robust network security measures, including
-              firewalls, intrusion detection systems (IDS), and secure VPN
-              (Virtual Private Network) connections, to protect against
-              unauthorised access and network-based attacks.
-            </p>
-          </div>
-        </div>
-        <div className="Box11">
-          <div className="Box2">
-            <img src={Num3} alt="" />
-          </div>
-          <h1>Security Awareness Training</h1>
-          <div className="inner-cont">
-            <p>
-              We provided comprehensive security awareness training programs for
-              employees, focusing on cybersecurity best practices, phishing
-              awareness, and incident response protocols.
-            </p>
-          </div>
-        // </div>
-        <div className="Box11">
-          <div className="Box2">
-            <img src={Num4} alt="" />
-          </div>
-          <h1>Incident Response and Forensics</h1>
-          <div className="inner-cont">
-            <p>
-              Our data experts also took care of incident response and forensics
-              capabilities to detect, respond to, and recover from cybersecurity
-              incidents effectively, minimising the impact on business
-              operations and data integrity.
-            </p>
-          </div>
-        </div> */}
+        
+     
         <div className="box-main-cont">
           <div className="box-cont select">
             <img src={Num1} width={25} height={25} />
