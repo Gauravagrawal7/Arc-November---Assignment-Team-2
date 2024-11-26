@@ -7,6 +7,7 @@ import User1 from "@/assets/Ellipse 21.png";
 import User2 from "@/assets/Ellipse 22.png";
 import User3 from "@/assets/Ellipse 23.png";
 import { useNavigate } from "react-router-dom";
+import NumberTicker from "@/components/ui/number-ticker";
 
 const FirstComponent = () => {
   const navigate = useNavigate();
@@ -46,7 +47,9 @@ const FirstComponent = () => {
                 <img src={User2} alt="" className="Partner-round-img" />
                 <img src={User3} alt="" className="Partner-round-img" />
               </div>
-              5,910+
+              <span className="Partner-statistics-number">
+                <NumberTicker value={5910} />+
+              </span>
             </div>
             <div className="Partner-user-para">
               Companies are using & it’s growing everyday

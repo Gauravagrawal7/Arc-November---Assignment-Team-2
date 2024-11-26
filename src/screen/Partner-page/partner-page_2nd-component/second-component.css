@@ -1,64 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.technologies-part{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: #2563EA;
-    padding: 5%;
-    margin-top: 10%;
-    margin-bottom: 8%;
+.technologies-part {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #2563ea;
+  padding: 5%;
+  margin-top: 10%;
+  margin-bottom: 8%;
 }
 
-.tp-left-text-part{
-    width: 40%;
-    font-family: "Poppins", sans-serif;
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 43px;
-    color: #FFFFFF;
+.tp-left-text-part {
+  width: 40%;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+  color: #ffffff;
 }
 
-.tp-right-block-part{
-    width: 60%;
+.tp-right-block-part {
+  width: 60%;
 }
 
-.tp-blocks-grp{
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+.tp-blocks-grp {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
-.tp-upper-blocks{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.tp-upper-blocks {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.tp-white-block{
-    height: 47px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    padding: 8px;
-    margin-bottom: 20px;
-    
+.tp-white-block {
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 20px;
 }
 
-.block-img{
-    width: 30px;
-    margin-right: 5px;
+.block-img {
+  width: 30px;
+  margin-right: 5px;
 }
 
-.block-para{
-    font-size: 11px;
-    font-weight: 700;
-    line-height: 14px;
-
+.block-para {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 14px;
 }
-
