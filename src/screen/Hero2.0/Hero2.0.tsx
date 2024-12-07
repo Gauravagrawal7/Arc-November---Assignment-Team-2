@@ -113,7 +113,7 @@ function Heroscreen() {
           Join 4,000+ companies already growing
         </p>
         <div className="company-logos-img">
-          {companiesName.map((company, index) => (
+          {companiesName.map((company) => (
             <img src={company} alt="Choruslogo" />
           ))}
         </div>
