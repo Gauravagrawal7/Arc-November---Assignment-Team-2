@@ -1,5 +1,4 @@
 import React from "react";
-import { EmblaOptionsType } from "embla-carousel";
 // import { DotButton, useDotButton } from './EmblaCarouselDotButton';
 import DiagonalArrow from "@/assets/north-west-white.png";
 import { usePrevNextButtons } from "./EmblaCarouselArrowBtn";
@@ -7,6 +6,8 @@ import useEmblaCarousel from "embla-carousel-react";
 import "./Carousel.css";
 import { PrevButton } from "./PrevButton";
 import { NextButton } from "./NextButton";
+import { EmblaOptionsType } from "embla-carousel";
+
 type PropType = {
   slides: {
     img: string;
