@@ -1,35 +1,7 @@
 import "./CaseStudy.css";
 import Rightarrow from "@/assets/Vector.png";
-import bannerImg from "@/assets/finance.png";
-import { EmblaOptionsType } from "embla-carousel";
 
 const CaseStudy = () => {
-  const OPTIONS: EmblaOptionsType = { align: "start" };
-
-  const SLIDES = [
-    {
-      tagName: "Finance",
-      img: bannerImg,
-      header: "What is Ad Exposure and Why It Matters?",
-      desc: "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
-    },
-    {
-      tagName: "Business",
-      img: bannerImg,
-      header: "What is Ad Exposure and Why It Matters?",
-      desc: "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
-    },
-    // {
-    //   img: CardImg3,
-    //   header: "What is Ad Exposure and Why It Matters?",
-    //   desc: "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
-    // },
-  ];
-  // const navigate = useNavigate();
-
-  // const handleNavigate = () => {
-  //   navigate("/case-study"); // Redirect to the "About" page
-  // };
   return (
     <div className="blog-main-cont">
       <div className="blog-container">

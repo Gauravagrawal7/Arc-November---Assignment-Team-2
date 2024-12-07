@@ -1,4 +1,4 @@
-import "./footer.css";
+import "./Footer.css";
 import "./footer-res.css";
 import Rightarrow from "@/assets/Vector.png";
 import HubnexLogo from "@/assets/hubnex logo.png";
