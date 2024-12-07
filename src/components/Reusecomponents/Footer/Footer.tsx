@@ -6,7 +6,6 @@ import Twitter from "@/assets/logo-twitter 2.png";
 import Facebook from "@/assets/2.png";
 import Instagram from "@/assets/3.png";
 import Github from "@/assets/4.png";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   const handleNavigate = (url: string) => {
@@ -71,12 +70,12 @@ const Footer = () => {
             <li className="footer-list-heading">Company</li>
 
             <li className="footer-list-item">
-              <Link to="/#"> About Us</Link>
+              {/* <Link to="/#"> About Us</Link> */}
             </li>
             <li className="footer-list-item">Services</li>
             <li className="footer-list-item">Careers</li>
             <li className="footer-list-item">
-              <Link to="/partners">For Partners</Link>
+              {/* <Link to="/partners">For Partners</Link> */}
             </li>
           </ul>
           <ul className="footer-list-sec">
