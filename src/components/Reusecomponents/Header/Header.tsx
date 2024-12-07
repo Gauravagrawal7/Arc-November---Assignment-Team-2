@@ -1,5 +1,5 @@
-import "./header.css";
-import './header-res.css'
+import "./Header.css";
+import "./header-res.css";
 import DiagonalArrow from "@/assets/north_west.png";
 import Leftalignlogo from "@/assets/Hubnex Labs left align.png";
 import Downarrow from "@/assets/arrow_back_ios_new.png";
@@ -63,7 +63,6 @@ const Header = () => {
             </span>
           </div>
           <div className="lower-nav-tab-items">About</div>
-          
         </div>
         <div className="login-and-sales-part">
           <p className="login-link">Login</p>
