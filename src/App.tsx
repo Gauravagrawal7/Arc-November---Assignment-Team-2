@@ -1,34 +1,33 @@
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Heroscreen from "./screen/Hero2.0/Hero2.0";
-import Header from "./components/Reusecomponents/Header/Header";
+import AdvertisingBanner from "./components/Reusecomponents/Advertising/AdvertisingBanner";
+import BlogPageContent from "./components/Reusecomponents/Blogs/Blogs";
 import Footer from "./components/Reusecomponents/Footer/Footer";
-import ContactUs from "./screen/ContactUs/ContactUs";
+import GlobalInfoPart from "./components/Reusecomponents/GlobalBlock/GlobalBlock";
+import Header from "./components/Reusecomponents/Header/Header";
 import Partner_page from "./screen/Partner-page/Partner_page";
-import Blog_page from "./screen/Blog-page/Blog_page";
-import CaseStudy from "./screen/casestudy/CaseStudyScreen";
+import HubnexUser from "./components/Reusecomponents/Hubnex/Hubnex";
+import Benefits from "./components/Reusecomponents/Benefits/Benefits";
 
-function App() {
+const App = () => {
   return (
     <>
       <Header />
-      <BrowserRouter>
-        <Routes>
-          {/* <Route path="/" element={<Navigate to="/home"></Navigate>}></Route> */}
-          <Route path="/" element={<Heroscreen></Heroscreen>}></Route>
-          <Route path="/home" element={<Heroscreen></Heroscreen>}></Route>
-          <Route path="/contact-us" element={<ContactUs></ContactUs>}></Route>
-          <Route
-            path="/partners"
-            element={<Partner_page></Partner_page>}
-          ></Route>
-          <Route path="/blogs" element={<Blog_page></Blog_page>}></Route>
-          <Route path="/case-study" element={<CaseStudy></CaseStudy>}></Route>
-        </Routes>
-      </BrowserRouter>
-      <Footer></Footer>
+
+      <Partner_page />
+
+      <HubnexUser />
+
+      <Benefits />
+
+      <BlogPageContent />
+
+      <GlobalInfoPart />
+
+      <AdvertisingBanner />
+
+      <Footer />
     </>
   );
-}
+};
 
 export default App;
