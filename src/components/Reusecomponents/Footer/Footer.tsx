@@ -6,10 +6,11 @@ import Twitter from "@/assets/logo-twitter 2.png";
 import Facebook from "@/assets/2.png";
 import Instagram from "@/assets/3.png";
 import Github from "@/assets/4.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const handleNavigate = () => {
-    location.assign("/contact-us");
+  const handleNavigate = (url: string) => {
+    location.assign(url);
   };
   return (
     <div className="footer-main-cont">
@@ -32,7 +33,10 @@ const Footer = () => {
             Let’s grow 💪 <br />
             together with the faster ecosystem
           </div>
-          <button className="contact-btn" onClick={handleNavigate}>
+          <button
+            className="contact-btn"
+            onClick={() => handleNavigate("/contact-us")}
+          >
             Contact us{" "}
             <span className="right-arrow">
               <img src={Rightarrow} alt="" />
@@ -67,12 +71,12 @@ const Footer = () => {
             <li className="footer-list-heading">Company</li>
 
             <li className="footer-list-item">
-              <a href="/#"> About Us</a>
+              <Link to="/#"> About Us</Link>
             </li>
             <li className="footer-list-item">Services</li>
             <li className="footer-list-item">Careers</li>
             <li className="footer-list-item">
-              <a href="/partners">For Partners</a>
+              <Link to="/partners">For Partners</Link>
             </li>
           </ul>
           <ul className="footer-list-sec">
@@ -86,8 +90,11 @@ const Footer = () => {
           <ul className="footer-list-sec">
             <li className="footer-list-heading">Resources</li>
 
-            <li className="footer-list-item">
-              <a href="/blogs">Blogs</a>
+            <li
+              className="footer-list-item"
+              onClick={() => handleNavigate("/blogs")}
+            >
+              Blogs
             </li>
             <li className="footer-list-item">
               <a href="/case-study"> Case Studies</a>
