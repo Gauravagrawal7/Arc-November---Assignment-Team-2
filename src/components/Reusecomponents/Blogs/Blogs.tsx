@@ -1,12 +1,11 @@
 import "./blogs.css";
-import './blog-res.css'
+import "./blog-res.css";
 import DiagonalArrow from "@/assets/north_west.png";
-import CardImg1  from "@/assets/image 24.png";
-import CardImg2  from "@/assets/image 14.png";
-import CardImg3  from "@/assets/image 301.png";
+import CardImg1 from "@/assets/image 24.png";
+import CardImg2 from "@/assets/image 14.png";
+import CardImg3 from "@/assets/image 301.png";
 import Rightarrow from "@/assets/Vector.png";
 // import { NextButton, PrevButton } from "../ui/Carousel/EmblaCarouselArrowBtn";
-import { useNavigate } from "react-router-dom";
 
 const Blogs = () => {
   // const navigate = useNavigate();
@@ -21,7 +20,7 @@ const Blogs = () => {
         <br />
         <div className="blog-title">Explore the impact we've delivered</div>
         <br />
-        <button className="view-btn" >
+        <button className="view-btn">
           View All
           <span className="right-arrow">
             <img src={Rightarrow} alt="" />
@@ -96,7 +95,7 @@ const Blogs = () => {
         </div>
 
         <div className="controls-embla">
-            {/* <div className="embla__buttons">
+          {/* <div className="embla__buttons">
               <PrevButton />
               <NextButton />
             </div> */}
