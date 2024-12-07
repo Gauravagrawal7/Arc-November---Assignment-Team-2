@@ -8,5 +8,13 @@
       "src": "/home",
       "dest": "/home"
     }
-  ]
+  ],
+  "version": 2,
+  "builds": [
+    {
+      "src": "vite.config.js",
+      "use": "@vercel/vite"
+    }
+  ],
+  "public": true
 }
