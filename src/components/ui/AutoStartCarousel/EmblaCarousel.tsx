@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import { EmblaOptionsType } from "embla-carousel";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-
+import "./EmblaCarousel.css";
+import "./EmblaCarousel-res.css";
 type PropType = {
   slides: string[];
   options?: EmblaOptionsType;
@@ -26,9 +27,9 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
   }, [emblaApi]);
 
   return (
-    <div className="AutoStartembla">
+    <div className="AutoStartemblax">
       <div className="embla__viewport" ref={emblaRef}>
-        <div className="embla__container">
+        <div className="auto-start-embla__container">
           {slides.map((name, index) => (
             <div className="embla__slide" key={index}>
               <div className="embla__slide__number">

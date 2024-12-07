@@ -1,4 +1,4 @@
-import RightArrow from "@/assets/Arrow-left-circle.png";
+import RightArrow from "@/assets/Arrow-right-circle.png";
 import { ComponentPropsWithRef } from "react";
 
 type PropType = ComponentPropsWithRef<"button">;
