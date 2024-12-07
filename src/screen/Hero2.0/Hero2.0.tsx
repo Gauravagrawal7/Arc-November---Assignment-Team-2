@@ -16,8 +16,14 @@ import User3 from "@/assets/Ellipse 23.png";
 import { useNavigate } from "react-router-dom";
 import Benefits from "@/components/Reusecomponents/Benefits/Benefits";
 
+import Choruslogo from "@/assets/Chorus logo.png";
+import TCS from "@/assets/TCS-logo.png";
+import Panteralogo from "@/assets/Pantera logo.png";
+import Raddit from "@/assets/reddit.png";
+
 function Heroscreen() {
   const navigate = useNavigate();
+  const companiesName = [Choruslogo, TCS, Panteralogo, Raddit];
 
   const handleNavigate = () => {
     navigate("/contact-us"); // Redirect to the "contact-us" page
@@ -106,6 +112,11 @@ function Heroscreen() {
         >
           Join 4,000+ companies already growing
         </p>
+        <div className="company-logos-img">
+          {companiesName.map((company, index) => (
+            <img src={company} alt="Choruslogo" />
+          ))}
+        </div>
       </section>
       <Benefits></Benefits>
       <GlobleBlock></GlobleBlock>
