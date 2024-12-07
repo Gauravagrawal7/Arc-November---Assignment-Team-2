@@ -8,5 +8,6 @@
       "src": "/home",
       "dest": "/home"
     }
-  ]
+  ],
+  "builds": [{ "src": "vite.config.ts", "use": "@vercel/vite" }]
 }
