@@ -1,4 +1,5 @@
 import "./comp-detail.css";
+import './com-det-res.css'
 import CompLogo from "@/assets/Rectangle 326.png";
 import { FaAngleDoubleRight } from "react-icons/fa";
 

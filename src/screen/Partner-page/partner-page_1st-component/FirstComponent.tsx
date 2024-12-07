@@ -1,20 +1,21 @@
 import "./first-component.css";
-import Rightarrow from "@/assets/Vector.png";
-import Rightarrowblack from "@/assets/blackarr.png";
-import Stars from "@/assets/star 1.png";
-import Image52 from "@/assets/image 52.png";
-import User1 from "@/assets/Ellipse 21.png";
-import User2 from "@/assets/Ellipse 22.png";
-import User3 from "@/assets/Ellipse 23.png";
+import "./first-compo-res.css";
+import Rightarrow from "../../../assets/Vector.png";
+import Rightarrowblack from "../../../assets/blackarr.png";
+import Stars from "../../../assets/star 1.png";
+import Image52 from "../../../assets/image 52.png";
+import User1 from "../../../assets/Ellipse 21.png";
+import User2 from "../../../assets/Ellipse 22.png";
+import User3 from "../../../assets/Ellipse 23.png";
 import { useNavigate } from "react-router-dom";
-import NumberTicker from "@/components/ui/number-ticker";
+import NumberTicker from "@/components/MagicUI/number-ticker";
 
 const FirstComponent = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const handleNavigate = () => {
-    navigate("/contact-us"); // Redirect to the "contact-us" page
-  };
+  // const handleNavigate = () => {
+  //   navigate("/contact-us"); // Redirect to the "contact-us" page
+  // };
   return (
     <div className="Partner-main-container">
       <div className="Partner-left-intro">
@@ -26,7 +27,7 @@ const FirstComponent = () => {
           professional website, landing page or admin panel for your.
         </p>
         <div className="Partner-left-intro_button-grp">
-          <button className="Partner-Contact-button" onClick={handleNavigate}>
+          <button className="Partner-Contact-button">
             Contact Us
             <span className="right-arrow">
               <img src={Rightarrowblack} alt="" />

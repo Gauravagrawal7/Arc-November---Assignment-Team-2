@@ -1,4 +1,5 @@
 import "./CaseStudy.css";
+import "./CaseStudy-ref.css";
 import Rightarrow from "@/assets/Vector.png";
 import bannerImg from "@/assets/finance.png";
 import { EmblaOptionsType } from "embla-carousel";
@@ -33,11 +34,11 @@ const CaseStudy = () => {
     navigate("/case-study"); // Redirect to the "About" page
   };
   return (
-    <div className="blog-main-cont">
-      <div className="blog-container">
-        <div className="blog-heading">Case Study</div>
+    <div className="case-study-main-cont">
+      <div className="case-study-container">
+        <div className="case-study-heading">Case Study</div>
         <br />
-        <div className="blog-title">
+        <div className="case-study-title">
           We guide global businesses through the challenges of developing
           purposeful technology that addresses their needs and advances their
           growth. We have established offices in India, the UAE, and the USA.
@@ -51,7 +52,7 @@ const CaseStudy = () => {
         </button>
         <br />
         <br />
-        <div className="blog-card-cont">
+        <div className="case-study-card-cont">
           <Carousel slides={SLIDES} options={OPTIONS} />
         </div>
       </div>

@@ -1,4 +1,5 @@
 import "./second-component.css";
+import './second-compo-res.css'
 import Compp from "@/assets/icons8-computing-64 1.png";
 import Backk from "@/assets/icons8-backend-development-100 1.png";
 import Cloud from "@/assets/icons8-cloud-print-48 1.png";
@@ -17,31 +18,31 @@ const SecondComponent = () => {
             <div className="tp-upper-blocks">
               <div className="tp-white-block">
                 <div className="block-img">
-                  <img src={Compp} alt="" />
+                  <img src={Compp} className="block-image" alt="" />
                 </div>
                 <div className="block-para">Edge Computing</div>
               </div>
               <div className="tp-white-block">
                 <div className="block-img">
-                  <img src={Conn} alt="" />
+                  <img src={Conn} alt="" className="block-image"/>
                 </div>
                 <div className="block-para">Connectivity</div>
               </div>
               <div className="tp-white-block">
                 <div className="block-img">
-                  <img src={Cloud} alt="" />
+                  <img src={Cloud} alt="" className="block-image"/>
                 </div>
                 <div className="block-para">Cloud Platforms</div>
               </div>
               <div className="tp-white-block">
                 <div className="block-img">
-                  <img src={Protocols} alt="" />
+                  <img src={Protocols} alt="" className="block-image"/>
                 </div>
                 <div className="block-para">Protocols and Standards</div>
               </div>
               <div className="tp-white-block">
                 <div className="block-img">
-                  <img src={Backk} alt="" />
+                  <img src={Backk} alt="" className="block-image"/>
                 </div>
                 <div className="block-para">
                   Development Tools and Platforms
@@ -49,13 +50,13 @@ const SecondComponent = () => {
               </div>
               <div className="tp-white-block">
                 <div className="block-img">
-                  <img src={Webann} alt="" />
+                  <img src={Webann} alt="" className="block-image"/>
                 </div>
                 <div className="block-para">Data Analytics and AI</div>
               </div>
               <div className="tp-white-block">
                 <div className="block-img">
-                  <img src={Oper} alt="" />
+                  <img src={Oper} alt="" className="block-image"/>
                 </div>
                 <div className="block-para">Operating Systems</div>
               </div>

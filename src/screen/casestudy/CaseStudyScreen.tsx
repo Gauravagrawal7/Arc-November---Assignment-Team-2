@@ -1,4 +1,4 @@
-import HubnexUser from "@/components/Hubnex/Hubnex";
+import HubnexUser from "@/components/Reusecomponents/Hubnex/Hubnex";
 import Frame1 from "./component2/component2-frame1";
 import Screen from "./component3/component3-screen";
 import Business from "./component4/component4-Business";

@@ -19,3 +19,27 @@
     color: rgba(115, 115, 115, 1);
     font-weight: 400;
 }
+
+@media only screen and (max-width: 1430px){
+    .partner-page-nav-portion{
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .partner-page-nav-portion{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .partner-page-nav-portion{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .partner-page-nav-portion{
+        width: 50%;
+    }
+}

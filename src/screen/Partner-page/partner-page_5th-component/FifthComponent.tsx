@@ -1,10 +1,12 @@
 import "./fifth-component.css";
-import Image32 from "@/assets/image 32.png";
-import Rightarrow from "@/assets/Vector.png";
+import './fifth-compo-res.css'
+import Image32 from "../../../assets/image 32.png";
+import Rightarrow from "../../../assets/Vector.png";
 
 const FifthComponent = () => {
   return (
     <div className="fifth-main-cont">
+      <div className="fifth-container-part">
       <div className="fifth-left-img-part">
         <img src={Image32} className="PosterImg" alt="" />
       </div>
@@ -28,6 +30,7 @@ const FifthComponent = () => {
             </span>{" "}
           </button>
         </div>
+      </div>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import NumberTicker from "../ui/number-ticker";
 import "./SalesConnection.css";
+import "./SalesConnection-res.css";
 import Rightarrow from "@/assets/blackarr.png";
 
 function SalesConnection() {
@@ -16,7 +17,7 @@ function SalesConnection() {
           </span>
         </button>
 
-        <div className="Container" style={{ display: "flex" }}>
+        <div className="Container">
           <div className="Block">
             <NumberTicker value={40} />+<p>Integrations</p>
           </div>

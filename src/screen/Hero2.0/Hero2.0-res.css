@@ -1,0 +1,103 @@
+@media only screen and (max-width: 950px) {
+  .Hero-left-intro {
+    width: 100%;
+  }
+
+  .Hero-right-image {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Hero-left-intro_heading {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .Hero-left-intro_para {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .Hero-left-intro_button-grp {
+    width: 100%;
+  }
+
+  .Hero-Contact-button {
+    height: 35px;
+  }
+
+  .Hero-join-btn {
+    height: 35px;
+  }
+
+  .Hero-left-intro_users-rating-part {
+    width: 100%;
+  }
+
+  .Hero-left-intro-user-part {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .Hero-user-para {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .Hero-left-intro-rating-part {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .Hero-rating-stars {
+    width: 50%;
+  }
+
+  .Hero-rating-para {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Hero-left-intro_heading {
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .Hero-left-intro_para {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .Hero-Contact-button {
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .Hero-join-btn {
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .Hero-left-intro-user-part {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .Hero-user-para {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .Hero-left-intro-rating-part {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .Hero-rating-para {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

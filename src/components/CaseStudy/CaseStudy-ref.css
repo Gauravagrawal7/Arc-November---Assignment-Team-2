@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1090px) {
+  .case-study-container {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 885px) {
+  .case-study-card {
+    padding: 2%;
+  }
+
+  .case-study-card-title {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .case-study-card-para {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .case-study-visit-part {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .card-third {
+    display: none;
+  }
+
+  .case-study-card {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  .case-study-heading {
+    font-size: 30px;
+  }
+
+  .case-study-title {
+    font-size: 16px;
+  }
+
+  .view-btn {
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .card-second {
+    display: none;
+  }
+
+  .case-study-card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,104 @@
+@media only screen and (max-width: 950px){
+    .Partner-left-intro {
+        width: 100%;
+      }
+
+      .Partner-right-image{
+        width: 100%;
+      }
+}
+
+@media only screen and (max-width: 600px){
+    .Partner-left-intro_heading {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .Partner-left-intro_para {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .Partner-left-intro_button-grp {
+        width: 100%;
+    }
+
+    .Partner-Contact-button {
+        height: 35px;
+    }
+
+    .Partner-join-btn {
+        height: 35px;
+    }
+
+    .Partner-left-intro_users-rating-part {
+        width: 100%;
+    }
+
+    .Partner-left-intro-user-part {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .Partner-user-para {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .Partner-left-intro-rating-part {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .Partner-rating-stars {
+        width: 50%;
+    }
+
+    .Partner-rating-para {
+        font-size: 14px;
+        line-height: 22px;
+    }
+      
+}
+
+@media only screen and (max-width: 450px){
+    .Partner-left-intro_heading {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .Partner-left-intro_para {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .Partner-Contact-button {
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .Partner-join-btn {
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .Partner-left-intro-user-part {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .Partner-user-para {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .Partner-left-intro-rating-part {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .Partner-rating-para {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}

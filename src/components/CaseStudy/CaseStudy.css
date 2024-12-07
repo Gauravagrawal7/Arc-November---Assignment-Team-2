@@ -1,7 +1,8 @@
-.blog-main-cont {
+.case-study-main-cont {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   background: linear-gradient(
     to top right,
     rgba(0, 0, 0, 1),
@@ -10,25 +11,24 @@
   margin-bottom: 5%;
 }
 
-.blog-container {
+.case-study-container {
   width: 80%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 10px;
   margin-top: 4%;
   margin-bottom: 3%;
   color: rgba(255, 255, 255, 1);
 }
 
-.blog-heading {
+.case-study-heading {
   font-size: 40px;
   font-weight: 600;
 }
 
-.blog-title {
+.case-study-title {
   font-size: 18px;
   font-weight: 400;
 }
@@ -47,7 +47,7 @@
   font-weight: 500;
 }
 
-.blog-card-cont {
+.case-study-card-cont {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -55,7 +55,7 @@
   flex-wrap: wrap;
 }
 
-.blog-card {
+.case-study-card {
   width: 30%;
   background-color: rgba(255, 255, 255, 1);
   border-radius: 10px;
@@ -63,6 +63,10 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 25px;
+}
+
+.card-image {
+  border-radius: 6px;
 }
 
 .marketing-btn {
@@ -80,7 +84,7 @@
   background-color: transparent;
 }
 
-.blog-card-title {
+.case-study-card-title {
   width: 60%;
   font-size: 18px;
   font-weight: 600;
@@ -88,14 +92,14 @@
   color: black;
 }
 
-.blog-card-para {
+.case-study-card-para {
   font-size: 16px;
   font-weight: 300;
   line-height: 19px;
   color: rgba(24, 24, 27, 1);
 }
 
-.blog-visit-part {
+.case-study-visit-part {
   font-size: 14px;
   font-weight: 600;
   color: black;

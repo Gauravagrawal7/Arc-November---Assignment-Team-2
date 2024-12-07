@@ -1,7 +1,8 @@
 import "./blog-content.css";
-import BlogBanner from "../../../assets/image 20.png";
-import HubnexWhiteLogo from '../../../assets/white-logo.png'
-import GreenArrow from '../../../assets/green-arrow.png'
+import "./blog-cont-res.css";
+import BlogBanner from "@/assets/image 20.png";
+import HubnexWhiteLogo from "@/assets/white-logo.png";
+import GreenArrow from "@/assets/green-arrow.png";
 
 const BlogPageContent = () => {
   return (
@@ -52,18 +53,16 @@ const BlogPageContent = () => {
                 You fail to respond to the response received from the customer
                 care team within 7 (Seven) days.
               </span>
-              <br />
-              A grievance will be treated as closed if You communicate Your
-              acceptance of the response received from the customer care team or
-              where,
+              <br />A grievance will be treated as closed if You communicate
+              Your acceptance of the response received from the customer care
+              team or where,
               <span className="dark-shade">
                 You fail to respond to the response received from the customer
                 care team within 7 (Seven) days.
               </span>
-              <br />
-              A grievance will be treated as closed if You communicate Your
-              acceptance of the response received from the customer care team or
-              where,
+              <br />A grievance will be treated as closed if You communicate
+              Your acceptance of the response received from the customer care
+              team or where,
               <span className="dark-shade">
                 You fail to respond to the response received from the customer
                 care team within 7 (Seven) days.
@@ -71,22 +70,21 @@ const BlogPageContent = () => {
             </p>
           </div>
           <div className="blog-info-right-cont">
-            <div className="blog-right-cont-upper-part">
-
-            </div>
+            <div className="blog-right-cont-upper-part"></div>
             <div className="blog-right-cont-lower-part">
               <div className="blog-lower-part-content">
-                <img src={HubnexWhiteLogo} alt="" className="hub-white-logo"/>
-                <div className="light-shade-title">
-                  Work better, together
-                </div>
+                <img src={HubnexWhiteLogo} alt="" className="hub-white-logo" />
+                <div className="light-shade-title">Work better, together</div>
                 <div className="bold-shade-title">
-                Get Evaluate Your Business Score!
+                  Get Evaluate Your Business Score!
                 </div>
               </div>
               <br />
               <button className="check-now-btn">
-                Check Now! <span className="right-arrow"><img src={GreenArrow} alt="" /></span>
+                Check Now!{" "}
+                <span className="right-arrow">
+                  <img src={GreenArrow} alt="" />
+                </span>
               </button>
             </div>
           </div>

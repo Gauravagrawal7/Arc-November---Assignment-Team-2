@@ -1,9 +1,10 @@
 import "./fourth-component.css";
+import './fourth-compo-res.css'
 import { FaAngleDoubleRight } from "react-icons/fa";
-import Signup from "@/assets/icons8-sign-up-40 1.png";
-import Folder from "@/assets/icons8-folder-48 1.png";
-import Setup from "@/assets/icons8-project-setup-48 1.png";
-import Verify from "@/assets/icons8-verify-48 1.png";
+import Signup from "../../../assets/icons8-sign-up-40 1.png";
+import Folder from "../../../assets/icons8-folder-48 1.png";
+import Setup from "../../../assets/icons8-project-setup-48 1.png";
+import Verify from "../../../assets/icons8-verify-48 1.png";
 
 const FourthComponent = () => {
   return (

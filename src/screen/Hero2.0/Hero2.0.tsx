@@ -1,9 +1,9 @@
 import "./Hero2.0.css";
+import "./Hero2.0-res.css";
 import NumberTicker from "@/components/ui/number-ticker";
-import Blogs from "@/components/Blogs/Blogs";
 import CaseStudy from "@/components/CaseStudy/CaseStudy";
-import GlobleBlock from "@/components/GlobalBlock/GlobalBlock";
-import Hubnex from "@/components/Hubnex/Hubnex";
+import GlobleBlock from "@/components/Reusecomponents/GlobalBlock/GlobalBlock";
+import Hubnex from "@/components/Reusecomponents/Hubnex/Hubnex";
 import Advertising from "@/components/Advertising/AdvertisingBanner";
 import SalesConnection from "@/components/SalesConnection/SalesConnection";
 import boy from "@/assets/boy.png";
@@ -20,11 +20,13 @@ import Raddit from "@/assets/reddit.png";
 import AutoStartCarousel from "@/components/ui/AutoStartCarousel/EmblaCarousel";
 import { EmblaOptionsType } from "embla-carousel";
 import { useNavigate } from "react-router-dom";
-import Benefits from "@/components/Benefits/Benefits";
+import Benefits from "@/components/Reusecomponents/Benefits/Benefits";
+import Marquee from "@/components/ui/marquee";
 
 function Heroscreen() {
   const OPTIONS: EmblaOptionsType = { loop: true };
   const SLIDES = [Choruslogo, TCS, Panteralogo, Raddit];
+  const companiesName = [Choruslogo, TCS, Panteralogo, Raddit];
 
   const navigate = useNavigate();
 
@@ -36,18 +38,18 @@ function Heroscreen() {
     <>
       <div className="Hero-main-container">
         <div className="Hero-left-intro">
-          <div className="Hero-intro_heading">
+          <div className="Hero-left-intro_heading">
             SaaS growth with weekly tips.
           </div>
-          <p className="Hero-intro_para">
+          <p className="Hero-left-intro_para">
             Clarity gives you the blocks & components you need to create a truly
             professional website, landing page or admin panel for your
             SaaS.Clarity gives you the blocks & components you Clarity gives you
             the blocks.
           </p>
           <div className="Hero-left-intro_button-grp">
-            <button className="Hero-contact-button" onClick={handleNavigate}>
-              Contact Us{" "}
+            <button className="Hero-Contact-button" onClick={handleNavigate}>
+              Contact Us
               <span className="right-arrow">
                 <img src={Rightarrowblack} alt="" />
               </span>
@@ -95,16 +97,22 @@ function Heroscreen() {
         </div>
 
         <div className="Hero-right-image">
-          <img
-            src={boy}
-            alt=""
-            className="Hero-img"
-            style={{ width: "500px", height: "500px" }}
-          />
+          <img src={boy} alt="" className="Hero-img" />
         </div>
       </div>
 
       {/* <!-- Company Logos Section --> */}
+      {/* <Marquee
+        pauseOnHover
+        repeat={1}
+        className="[--duration:20s]"
+        reverse
+        key={"marquee"}
+      >
+        {companiesName.map((company, index) => (
+          <img src={company} alt="Choruslogo" />
+        ))}
+      </Marquee> */}
       <section
         className="company-logos"
         style={{ marginTop: "100px", textAlign: "center" }}
@@ -127,7 +135,6 @@ function Heroscreen() {
       <SalesConnection></SalesConnection>
       <Hubnex></Hubnex>
       <Advertising></Advertising>
-      <Blogs></Blogs>
     </>
   );
 }

@@ -7,6 +7,7 @@
   background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)),
     url("@/assets/grid.jpg");
   background-size: cover;
+  margin-top: 5%;
 }
 
 .third-cont-heading {

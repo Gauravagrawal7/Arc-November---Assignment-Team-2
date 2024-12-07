@@ -1,0 +1,28 @@
+@media only screen and (max-width: 450px){
+    .third-cont-heading {
+        font-size: 25px; 
+    }
+
+    .third-block-content {
+        width: 300px;
+    }
+
+    .third-block-image {
+        height: 300px;
+    }
+
+    .block-lower-para {
+        height: 100%;
+    }
+
+    .lower-para-heading {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .lower-para-content {
+        font-size: 11px;
+        line-height: 20px;
+      }
+      
+}

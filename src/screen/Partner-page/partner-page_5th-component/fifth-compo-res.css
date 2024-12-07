@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1500px){
+    .fifth-text-area{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    .fifth-left-img-part{
+        width: 100%;
+        height: 470px;
+    }
+
+    .fifth-right-text-part{
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .sales-btn{
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .fifth-left-img-part{
+        height: 330px;
+    }
+
+    .fifth-text-part-heading{
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .fifth-para-part{
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .sales-btn{
+        padding: 10px;
+        font-size: 12px;
+    }
+    
+}

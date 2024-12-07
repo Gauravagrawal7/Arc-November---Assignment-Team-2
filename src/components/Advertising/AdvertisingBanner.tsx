@@ -1,4 +1,5 @@
 import "./ad-banner.css";
+import "./ad-banner-res.css";
 import Crown from "@/assets/icons8-crown-48 1.png";
 import Rightarrow from "@/assets/Vector.png";
 

@@ -1,0 +1,20 @@
+@media only screen and (max-width: 600px) {
+  .ad-banner-cont {
+    display: block;
+    width: 100%;
+  }
+  .ad-banner-title-part {
+    width: 80%;
+  }
+  .ad-banner-upper-title {
+    font-size: 10px;
+  }
+  .ad-banner-lower-title {
+    font-size: 16px;
+  }
+  .ad-banner-right {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}

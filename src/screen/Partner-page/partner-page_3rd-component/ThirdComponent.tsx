@@ -1,4 +1,5 @@
 import "./third-component.css";
+import './third-compo-res.css'
 import Poster1 from "@/assets/image 30.png";
 import Poster2 from "@/assets/image 30 (1).png";
 import Poster3 from "@/assets/image 30 (2).png";
