@@ -1,7 +1,12 @@
-import { useCallback, useEffect, useState } from "react";
+import React, {
+  ComponentPropsWithRef,
+  useCallback,
+  useEffect,
+  useState,
+} from "react";
 import { EmblaCarouselType } from "embla-carousel";
-import "./Carousel.css";
-
+import LeftArrow from "@/assets/Arrow-left-circle.png";
+import RightArrow from "@/assets/Arrow-right-circle.png";
 type UsePrevNextButtonsType = {
   prevBtnDisabled: boolean;
   nextBtnDisabled: boolean;
@@ -43,4 +48,37 @@ export const usePrevNextButtons = (
     onPrevButtonClick,
     onNextButtonClick,
   };
+};
+
+type PropType = ComponentPropsWithRef<"button">;
+
+export const PrevButton: React.FC<PropType> = (props) => {
+  const { children, ...restProps } = props;
+
+  return (
+    <button
+      className="embla__button embla__button--prev"
+      type="button"
+      {...restProps}
+    >
+      <img src={LeftArrow} alt="left" />
+      {children}
+    </button>
+  );
+};
+
+export const NextButton: React.FC<PropType> = (props) => {
+  const { children, ...restProps } = props;
+
+  return (
+    <button
+      className="embla__button embla__button--next"
+      type="button"
+      {...restProps}
+    >
+      <img src={RightArrow} alt="right" />
+
+      {children}
+    </button>
+  );
 };

@@ -8,7 +8,7 @@
 .embla__viewport {
   overflow: hidden;
 }
-.auto-start-embla__container {
+.embla__container {
   display: flex;
   touch-action: pan-y pinch-zoom;
   margin-left: calc(var(--slide-spacing) * -1);

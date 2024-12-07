@@ -1,5 +1,4 @@
 import "./footer.css";
-import "./footer-res.css";
 import Rightarrow from "@/assets/Vector.png";
 import HubnexLogo from "@/assets/hubnex logo.png";
 import Twitter from "@/assets/logo-twitter 2.png";
@@ -66,9 +65,7 @@ const Footer = () => {
           <ul className="footer-list-sec">
             <li className="footer-list-heading">Company</li>
 
-            <li className="footer-list-item">
-              <a href="/#"> About Us</a>
-            </li>
+            <li className="footer-list-item">About Us</li>
             <li className="footer-list-item">Services</li>
             <li className="footer-list-item">Careers</li>
             <li className="footer-list-item">
@@ -86,9 +83,7 @@ const Footer = () => {
           <ul className="footer-list-sec">
             <li className="footer-list-heading">Resources</li>
 
-            <li className="footer-list-item">
-              <a href="/blogs">Blogs</a>
-            </li>
+            <li className="footer-list-item">Blogs</li>
             <li className="footer-list-item">
               <a href="/case-study"> Case Studies</a>
             </li>
