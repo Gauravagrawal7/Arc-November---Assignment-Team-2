@@ -13,20 +13,10 @@ import Stars from "@/assets/star 1.png";
 import User1 from "@/assets/Ellipse 21.png";
 import User2 from "@/assets/Ellipse 22.png";
 import User3 from "@/assets/Ellipse 23.png";
-import Choruslogo from "@/assets/Chorus logo.png";
-import TCS from "@/assets/TCS-logo.png";
-import Panteralogo from "@/assets/Pantera logo.png";
-import Raddit from "@/assets/reddit.png";
-import { EmblaOptionsType } from "embla-carousel";
 import { useNavigate } from "react-router-dom";
 import Benefits from "@/components/Reusecomponents/Benefits/Benefits";
-// import Marquee from "@/components/ui/marquee";
 
 function Heroscreen() {
-  const OPTIONS: EmblaOptionsType = { loop: true };
-  const SLIDES = [Choruslogo, TCS, Panteralogo, Raddit];
-  // const companiesName = [Choruslogo, TCS, Panteralogo, Raddit];
-
   const navigate = useNavigate();
 
   const handleNavigate = () => {
@@ -101,17 +91,7 @@ function Heroscreen() {
       </div>
 
       {/* <!-- Company Logos Section --> */}
-      {/* <Marquee
-        pauseOnHover
-        repeat={1}
-        className="[--duration:20s]"
-        reverse
-        key={"marquee"}
-      >
-        {companiesName.map((company, index) => (
-          <img src={company} alt="Choruslogo" />
-        ))}
-      </Marquee> */}
+
       <section
         className="company-logos"
         style={{ marginTop: "100px", textAlign: "center" }}
