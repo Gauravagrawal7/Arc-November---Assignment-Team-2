@@ -1,5 +1,5 @@
 import "./Header.css";
-import "./Header-res.css";
+import "./header-res.css";
 import DiagonalArrow from "@/assets/north_west.png";
 import Leftalignlogo from "@/assets/Hubnex Labs left align.png";
 import Downarrow from "@/assets/arrow_back_ios_new.png";
