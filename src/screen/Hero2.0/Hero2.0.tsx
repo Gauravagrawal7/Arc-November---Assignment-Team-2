@@ -17,7 +17,6 @@ import Choruslogo from "@/assets/Chorus logo.png";
 import TCS from "@/assets/TCS-logo.png";
 import Panteralogo from "@/assets/Pantera logo.png";
 import Raddit from "@/assets/reddit.png";
-import AutoStartCarousel from "@/components/ui/AutoStartCarousel/EmblaCarousel";
 import { EmblaOptionsType } from "embla-carousel";
 import { useNavigate } from "react-router-dom";
 import Benefits from "@/components/Reusecomponents/Benefits/Benefits";
@@ -127,7 +126,6 @@ function Heroscreen() {
         >
           Join 4,000+ companies already growing
         </p>
-        <AutoStartCarousel slides={SLIDES} options={OPTIONS} />
       </section>
       <Benefits></Benefits>
       <GlobleBlock></GlobleBlock>

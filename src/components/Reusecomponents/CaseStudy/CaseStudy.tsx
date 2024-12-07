@@ -2,7 +2,6 @@ import "./CaseStudy.css";
 import Rightarrow from "@/assets/Vector.png";
 import bannerImg from "@/assets/finance.png";
 import { EmblaOptionsType } from "embla-carousel";
-import Carousel from "@/components/ui/Carousel/Carousel";
 
 const CaseStudy = () => {
   const OPTIONS: EmblaOptionsType = { align: "start" };
@@ -50,9 +49,7 @@ const CaseStudy = () => {
         </button>
         <br />
         <br />
-        <div className="blog-card-cont">
-          <Carousel slides={SLIDES} options={OPTIONS} />
-        </div>
+        <div className="blog-card-cont"></div>
       </div>
     </div>
   );
