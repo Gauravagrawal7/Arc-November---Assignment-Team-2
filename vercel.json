@@ -1,4 +1,5 @@
 {
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
   "routes": [
     {
       "src": "/",
@@ -9,5 +10,12 @@
       "dest": "/home"
     }
   ],
-  "builds": [{ "src": "vite.config.ts", "use": "@vercel/vite" }]
+  "version": 2,
+  "builds": [
+    {
+      "src": "vite.config.js",
+      "use": "@vercel/vite"
+    }
+  ],
+  "public": ["public"]
 }
