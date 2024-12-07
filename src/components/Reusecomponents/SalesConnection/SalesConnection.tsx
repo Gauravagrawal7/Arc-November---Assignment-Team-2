@@ -1,4 +1,4 @@
-import NumberTicker from "../ui/number-ticker";
+import NumberTicker from "@/components/ui/number-ticker";
 import "./SalesConnection.css";
 import "./SalesConnection-res.css";
 import Rightarrow from "@/assets/blackarr.png";

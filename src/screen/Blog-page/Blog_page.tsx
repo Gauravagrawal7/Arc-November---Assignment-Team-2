@@ -1,9 +1,9 @@
 import "./blog-page.css";
 import Chevronright from "../../assets/chevron-right.png";
 import BlogPageContent from "./blog-page-content/BlogPageContent";
-import AdvertisingBanner from "@/components/Advertising/AdvertisingBanner";
+import AdvertisingBanner from "@/components/Reusecomponents/Advertising/AdvertisingBanner";
 import HubnexUser from "@/components/Reusecomponents/Hubnex/Hubnex";
-import CaseStyCont from "@/components/CaseStudy/CaseStudy";
+import CaseStyCont from "@/components/Reusecomponents/CaseStudy/CaseStudy";
 
 const Blog_page = () => {
   return (

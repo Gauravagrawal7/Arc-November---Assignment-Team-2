@@ -3,7 +3,7 @@ import Frame1 from "./component2/component2-frame1";
 import Screen from "./component3/component3-screen";
 import Business from "./component4/component4-Business";
 import Impact from "./component5/component5-impact";
-import CaseStudy from "@/components/CaseStudy/CaseStudy";
+import CaseStudy from "@/components/Reusecomponents/CaseStudy/CaseStudy";
 
 const CaseStudyScreen = () => {
   return (

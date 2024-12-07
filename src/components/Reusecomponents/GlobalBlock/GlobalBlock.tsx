@@ -1,10 +1,10 @@
 import "./GlobalBlock.css";
-import './globalblock-res.css'
+import "./globalblock-res.css";
 import Earth from "@/assets/image 5.png";
 import Dailyhunt from "@/assets/image 34.png";
 import Toi from "@/assets/image 36.png";
 import HindustanT from "@/assets/image 37.png";
-import NumberTicker from "../../MagicUI/number-ticker";
+import NumberTicker from "@/components/ui/number-ticker";
 
 const GlobalInfoPart = () => {
   return (
@@ -40,12 +40,12 @@ const GlobalInfoPart = () => {
           <div className="global-info-feature-part">
             <span className="feature">Featured in</span>
             <img src={Dailyhunt} alt="" className="feature-Img-d" />
-            <img src={Toi} alt="" className="feature-Img-t"/>
+            <img src={Toi} alt="" className="feature-Img-t" />
             <img src={HindustanT} alt="" className="feature-Img-h" />
           </div>
         </div>
         <div className="global-info-image-part">
-          <img src={Earth} alt="" className="global-img"/>
+          <img src={Earth} alt="" className="global-img" />
         </div>
       </div>
     </div>

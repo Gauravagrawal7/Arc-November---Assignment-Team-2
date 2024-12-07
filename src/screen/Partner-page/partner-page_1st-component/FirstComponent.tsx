@@ -7,8 +7,7 @@ import Image52 from "../../../assets/image 52.png";
 import User1 from "../../../assets/Ellipse 21.png";
 import User2 from "../../../assets/Ellipse 22.png";
 import User3 from "../../../assets/Ellipse 23.png";
-import { useNavigate } from "react-router-dom";
-import NumberTicker from "@/components/MagicUI/number-ticker";
+import NumberTicker from "@/components/ui/number-ticker";
 
 const FirstComponent = () => {
   // const navigate = useNavigate();

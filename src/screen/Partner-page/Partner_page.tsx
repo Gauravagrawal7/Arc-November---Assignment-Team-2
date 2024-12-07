@@ -7,7 +7,7 @@ import CompanyDetail from "./CompanyDetail/CompanyDetail";
 import ThirdComponent from "./partner-page_3rd-component/ThirdComponent";
 import SecondComponent from "./partner-page_2nd-component/SecondComponent";
 import Blogs from "@/components/Reusecomponents/Blogs/Blogs";
-import AdvertisingBanner from "@/components/Advertising/AdvertisingBanner";
+import AdvertisingBanner from "@/components/Reusecomponents/Advertising/AdvertisingBanner";
 import GlobalInfoPart from "@/components/Reusecomponents/GlobalBlock/GlobalBlock";
 import HubnexUser from "@/components/Reusecomponents/Hubnex/Hubnex";
 

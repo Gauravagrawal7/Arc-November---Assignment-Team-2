@@ -2,8 +2,7 @@ import "./CaseStudy.css";
 import Rightarrow from "@/assets/Vector.png";
 import bannerImg from "@/assets/finance.png";
 import { EmblaOptionsType } from "embla-carousel";
-import Carousel from "../../MagicUI/Carousel/Carousel";
-import { useNavigate } from "react-router-dom";
+import Carousel from "@/components/ui/Carousel/Carousel";
 
 const CaseStudy = () => {
   const OPTIONS: EmblaOptionsType = { align: "start" };
@@ -43,7 +42,7 @@ const CaseStudy = () => {
           growth. We have established offices in India, the UAE, and the USA.
         </div>
         <br />
-        <button className="view-btn" >
+        <button className="view-btn">
           View All
           <span className="right-arrow">
             <img src={Rightarrow} alt="" />

@@ -1,11 +1,11 @@
 import "./Hero2.0.css";
 import "./Hero2.0-res.css";
 import NumberTicker from "@/components/ui/number-ticker";
-import CaseStudy from "@/components/CaseStudy/CaseStudy";
+import CaseStudy from "@/components/Reusecomponents/CaseStudy/CaseStudy";
 import GlobleBlock from "@/components/Reusecomponents/GlobalBlock/GlobalBlock";
 import Hubnex from "@/components/Reusecomponents/Hubnex/Hubnex";
-import Advertising from "@/components/Advertising/AdvertisingBanner";
-import SalesConnection from "@/components/SalesConnection/SalesConnection";
+import Advertising from "@/components/Reusecomponents/Advertising/AdvertisingBanner";
+import SalesConnection from "@/components/Reusecomponents/SalesConnection/SalesConnection";
 import boy from "@/assets/boy.png";
 import Rightarrow from "@/assets/Vector.png";
 import Rightarrowblack from "@/assets/blackarr.png";
@@ -21,12 +21,12 @@ import AutoStartCarousel from "@/components/ui/AutoStartCarousel/EmblaCarousel";
 import { EmblaOptionsType } from "embla-carousel";
 import { useNavigate } from "react-router-dom";
 import Benefits from "@/components/Reusecomponents/Benefits/Benefits";
-import Marquee from "@/components/ui/marquee";
+// import Marquee from "@/components/ui/marquee";
 
 function Heroscreen() {
   const OPTIONS: EmblaOptionsType = { loop: true };
   const SLIDES = [Choruslogo, TCS, Panteralogo, Raddit];
-  const companiesName = [Choruslogo, TCS, Panteralogo, Raddit];
+  // const companiesName = [Choruslogo, TCS, Panteralogo, Raddit];
 
   const navigate = useNavigate();
 
