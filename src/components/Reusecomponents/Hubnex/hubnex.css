@@ -1,0 +1,68 @@
+.hubnex-user-main-cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.hub-user-container {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.happy-content-index {
+  color: rgba(29, 78, 216, 1);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.hubnex-content-heading {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.happy-detail-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 6%;
+}
+
+.happy-cont-right-part {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.happy-cont-title-part {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 500;
+}
+
+.happy-cont-para-part {
+  color: rgba(82, 82, 91, 1);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.company-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.company-title {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(16, 24, 40, 1);
+  text-align: left;
+}

@@ -1,0 +1,81 @@
+@media only screen and (max-width: 950px){
+    .black-banner-cont{
+        padding: 3%;
+    }
+
+    .black-bann-heading {
+        font-size: 20px;
+    }
+
+    .Footer-sales-btn{
+        font-size: 12px;
+        padding: 12px;
+    }
+
+    .footer-heading{
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .contact-btn{
+        width: 120px;
+        height: 40px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .black-bann-heading {
+        font-size: 16px;
+        border-radius: 14px;
+    }
+
+    .Footer-sales-btn{
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .footer-heading{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .contact-btn{
+        width: 90px;
+        height: 35px;
+        font-size: 8px;
+    }
+
+    .footer-about-portion {
+        width: 90%;
+      }
+    
+    .footer-list-sec {
+        line-height: 30px;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    .footer-heading{
+        font-size: 10px;
+    }
+
+    .contact-btn{
+        width: 80px;
+        height: 30px;
+        font-size: 8px;
+    }
+
+    .footer-list-sec {
+        line-height: 26px;
+    }
+
+    .footer-list-heading {
+        font-size: 12px;
+    }
+
+    .footer-list-item {
+        font-size: 10px;
+    }
+
+}

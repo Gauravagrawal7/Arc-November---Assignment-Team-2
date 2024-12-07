@@ -1,0 +1,42 @@
+@media only screen and (max-width: 600px){
+    .fourth-heading{
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .fourth-heading{
+        font-size: 24px;
+    }
+
+    .fourth-blocks-container{
+        width: 75%;
+    }
+
+    .white-block-content{
+        width: 100%;
+        height: 100%;
+        padding: 6%;
+    }
+
+    .forward-right{
+        font-size: 20px;
+    }
+
+    .white-block-heading{
+        font-size: 18px;
+        line-height: 40px;
+    } 
+    
+    .white-block-para{
+        font-size: 12px;
+        line-height: 18px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .fourth-heading{
+        font-size: 20px;
+    }
+}

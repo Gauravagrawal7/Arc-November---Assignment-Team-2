@@ -1,0 +1,121 @@
+@media only screen and (max-width: 950px){
+    .specialise-para{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .comp-detail-para{
+        width:100%;
+        font-size: 20px;
+
+    }
+
+    .comp-growth-and-team-part{
+        width: 95%;
+    }
+
+    .block-data{
+        font-size: 18px;
+    }
+
+    .journey-date-blocks{
+        font-size: 16px;
+    }
+
+    .journey-direction{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+
+    .comp-detail-heading{
+        font-size: 22px;
+    }
+
+    .comp-location{
+        font-size: 16px;
+    }
+
+    .comp-specailse-heading{
+        font-size: 16px;
+    }
+
+    .specialise-para{
+        font-size: 14px;
+    }
+
+    .comp-detail-para{
+        font-size: 16px;
+
+    }
+
+    .comp-growth-and-team-part{
+        width: 100%;
+    }
+
+    .block-data{
+        font-size: 15px;
+    }
+
+    .journey-date-blocks{
+        font-size: 14px;
+    }
+
+    .journey-direction{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+
+    .comp-logo{
+        width: 120px;
+    }
+
+    .comp-detail-heading{
+        font-size: 18px;
+    }
+
+    .comp-location{
+        font-size: 12px;
+    }
+
+    .comp-specailse-heading{
+        font-size: 12px;
+    }
+
+    .specialise-para{
+        font-size: 10px;
+    }
+
+    .comp-detail-para{
+        font-size: 12px;
+        line-height: 26px;
+
+    }
+
+    .date-team-growth-block{
+        margin-right: 2%;
+    }
+
+    .block-data{
+        font-size: 12px;
+    }
+
+    .journey-date-blocks{
+        font-size: 11px;
+    }
+
+    .date-heading{
+        font-size: 10px;
+    }
+
+    .journey-subtitle{
+        font-size: 9px;
+    }
+
+    .journey-direction{
+        font-size: 16px;
+    }
+}

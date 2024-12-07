@@ -1,0 +1,66 @@
+@media only screen and (max-width: 950px){
+    .hub-user-container {
+        width: 85%;
+      }
+}
+
+@media only screen and (max-width: 800px){
+    .hubnex-content-heading {
+        text-align: center;
+        font-size: 30px;
+      }
+    
+      .happy-cont-left-part {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .happy-cont-right-part {
+        margin-top: 4%;
+        width: 100%;
+        justify-content: center;
+      }
+
+      .happy-cont-title-part {
+        font-size: 24px;
+      }
+
+      .happy-cont-para-part {
+        font-size: 16px;
+      }
+
+      .company-name {
+        font-size: 16px;
+      }
+
+      .company-title {
+        font-size: 12px;
+      }
+      
+}
+
+@media only screen and (max-width: 950px){
+    .hubnex-content-heading {
+        font-size: 24px;
+        line-height: 34px;
+      }
+
+      .happy-cont-title-part {
+        font-size: 22px;
+        line-height: 32px;
+      }
+
+      .happy-cont-para-part {
+        font-size: 14px;
+        line-height: 24px;
+      }
+
+      .company-name {
+        font-size: 14px;
+      }
+
+      .company-title {
+        font-size: 12px;
+      }
+}

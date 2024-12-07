@@ -1,0 +1,104 @@
+.comp-detail-main-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.comp-detail-cont{
+    width: 85%;
+    background-color: rgba(245, 245, 245, 1);
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.comp-detail-image-and-heading-part{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.comp-logo{
+    border-radius: 9px;
+}
+
+.comp-detail-heading-and-title-part{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.comp-detail-heading{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.comp-location{
+    color: rgba(123, 123, 123, 1);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.comp-specailse-heading{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.specialise-para{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(102, 112, 133, 1);
+    width: 90%;
+}
+
+.comp-detail-para{
+    width:92%;
+    color: rgba(102, 112, 133, 1);
+    line-height: 35px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.comp-growth-and-team-part{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-data{
+    color: rgba(102, 112, 133, 1);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.comp-journey-detail-cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.journey-date-blocks{
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.date-heading{
+    color: rgba(92, 92, 92, 1);
+    font-weight: 600;
+}
+
+.journey-subtitle{
+    color: rgba(102, 112, 133, 1);
+}
+
+.journey-direction{
+    color: rgba(72, 90, 255, 1);
+    font-size: 30px;
+}

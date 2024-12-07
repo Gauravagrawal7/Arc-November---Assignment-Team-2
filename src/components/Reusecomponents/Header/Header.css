@@ -1,0 +1,89 @@
+.header-main-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.header-upper-part {
+  width: 88%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 20px;
+}
+
+.upper-nav-tabs {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upper-nav-tabs-items {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.vr-line {
+  font-size: 14px;
+}
+
+.nav-line {
+  border: 1px solid rgba(146, 146, 146, 1);
+  width: 92%;
+}
+
+.header-lower-nav-part {
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-logo-left-align{
+  width: 42px;
+  height: 42px;
+}
+
+.lower-nav-tabs {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lower-nav-tab-items {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(15, 23, 42, 1);
+}
+
+.login-and-sales-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.login-link {
+  color: rgba(97, 131, 228, 1);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.conn-sales-btn {
+  background-color: #1d4ed8;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  color: #f8fafc;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}

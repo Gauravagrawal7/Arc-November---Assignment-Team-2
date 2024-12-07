@@ -1,0 +1,20 @@
+@media only screen and (max-width: 950px){
+
+    .ad-banner-upper-title{
+        font-size: 10px;
+    }
+
+    .ad-banner-lower-title{
+        font-size: 14px;
+    }
+
+    .crownImg{
+        width: 30px;
+        height: 30px;
+    }
+
+    .check-btn{
+        font-size: 10px;
+        padding: 8px;
+    }
+}

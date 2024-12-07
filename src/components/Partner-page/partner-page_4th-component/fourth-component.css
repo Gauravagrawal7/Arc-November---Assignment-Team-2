@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.fourth-main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5EAF0;
+    margin-bottom: 6%;
+}
+
+.fourth-heading{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 40px;
+    margin-top: 5%;
+}
+
+
+
+.fourth-blocks-container{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.white-block-content{
+    width: 436px;
+    height: 378px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 5%;
+}
+
+.forward-right{
+    font-size: 24px;
+}
+
+.curve-steps-block{
+    border: 1px solid black;
+    width: 56px;
+    height: 24px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    font-size: 12px;
+}
+
+.white-block-heading{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.white-block-para{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    width: 281px;
+}

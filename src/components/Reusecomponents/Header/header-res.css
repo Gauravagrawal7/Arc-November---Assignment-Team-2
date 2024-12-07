@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1262px) {
+  .lower-nav-tabs {
+    width: 60%;
+  }  
+}
+
+@media only screen and (max-width: 950px) {
+      .header-upper-part {
+        justify-content: center;
+        padding: 10px;
+      }
+
+      .upper-nav-tabs {
+        width: 100%;
+      }
+
+      .lower-nav-tabs {
+        display: none;
+      }
+
+      .nav-logo-left-align{
+        width: 32px;
+        height: 32px;
+      }
+
+      .upper-nav-tabs-items {
+        font-size: 12px;
+      }
+
+      .header-lower-nav-part{
+        padding: 10px;
+      }
+
+      .login-link{
+        font-size: 12px;
+      }
+
+      .conn-sales-btn{
+        padding: 8px;
+        font-size: 10px;
+      }
+
+      .right-arrow{
+        margin-left: 2px;
+        height: 12px;
+      }
+
+  }

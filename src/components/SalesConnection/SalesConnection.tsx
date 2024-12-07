@@ -1,3 +1,4 @@
+import NumberTicker from "../ui/number-ticker";
 import "./SalesConnection.css";
 import Rightarrow from "@/assets/blackarr.png";
 
@@ -17,24 +18,16 @@ function SalesConnection() {
 
         <div className="Container" style={{ display: "flex" }}>
           <div className="Block">
-            <h4>40+</h4>
-            <p>Integrations</p>
+            <NumberTicker value={40} />+<p>Integrations</p>
           </div>
           <div className="Block">
-            <h4>40+</h4>
-            <p>Integrations</p>
+            <NumberTicker value={40} />+<p>Integrations</p>
           </div>
           <div className="Block">
-            <h4>40+</h4>
-            <p>Integrations</p>
+            <NumberTicker value={40} />+<p>Integrations</p>
           </div>
           <div className="Block">
-            <h4>40+</h4>
-            <p>Integrations</p>
-          </div>
-          <div className="Block">
-            <h4>40+</h4>
-            <p>Integrations</p>
+            <NumberTicker value={40} />+<p>Integrations</p>
           </div>
         </div>
       </div>
